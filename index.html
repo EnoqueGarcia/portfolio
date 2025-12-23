@@ -3,119 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos</title>
+    <title>Enoque | Desenvolvedor Front-end</title>
+
+    <meta name="description" content="Portfólio de Enoque, desenvolvedor front-end júnior com projetos em HTML, CSS e JavaScript.">
+
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 
-    <header class="header container">
-        <h1 class="header-title">Olá, eu sou o Enoque</h1>
-        <p class="header-subtitle">
-            Sou desenvolvedor web apaixonado por criar soluções elegantes e funcionais. Vamos trabalhar juntos!
-        </p>
-       <!-- <a href="#projects" class="cta-button">Ver Meus Projetos</a> -->
-    </header>
+<header class="header container">
+    <h1 class="header-title">Olá, eu sou o Enoque</h1>
+    <p class="header-subtitle">
+        Desenvolvedor Full-stack Júnior • HTML • CSS • JavaScript • Node.js • PHP
+    </p>
 
-    <section id="projects" class="projects-section container">
-        <h2>Meus Projetos</h2>
-        <div class="projects-grid">
-            <!-- Card de Projeto 1 -->
-            <a href="https://enoquegarcia.github.io/pizzaria-forno-do-sul/" class="project-card" target="_blank">
-                <div class="relative">
-                    <div class="card-content">
-                        <h3>Projeto Pizzaria</h3>
-                    </div>
-                    <div class="project-media">
-                         <!-- A imagem da pizza tem a nova classe "pizza-img" para a animação -->
-                        <img src="./src/pizza.png" class="pizza-img">
-                        <p>
-                            Um site moderno e responsivo para uma pizzaria fictícia.
-                        </p>
-                    </div>
-                </div>
-            </a>
-            
-            <!-- Card de Projeto 2 -->
-            <a href="https://enoquegarcia.github.io/streaming-project/" target="_blank" class="project-card">
-                <div class="relative">
-                    <div class="card-content">
-                        <h3>Catálogo de filmes</h3>
-                    </div>
-                    <div class="project-media">
-                        <!-- Esta imagem não tem a classe "pizza-img", então não vai rodar -->
-                        <img src="./src/movie.png">
-                        <p>
-                            Um catálogo de filmes onde é possível acrescentar um novo cartaz tal como remover
-                        </p>
-                    </div>
-                </div>
-            </a>
-            
-            <!-- Card de Projeto 3 -->
-            <a href="https://enoquegarcia.github.io/E-commerce/" target="_blank" class="project-card">
-                <div class="relative">
-                    <div class="card-content">
-                        <h3>Landing Page de E-commerce</h3>
-                    </div>
-                    <div class="project-media">
-                        <!-- Esta imagem não tem a classe "pizza-img", então não vai rodar -->
-                        <img src="./src/compras2.png" alt="Imagem animada de e-commerce">
-                        <p>
-                            Uma página comercial onde é possível adicionar produtos no carrinho de compras e adicionar novos itens.
-                        </p>
-                    </div>
-                </div>
-            </a>
-             <!-- Card de Projeto 4 -->
-            <a href="https://enoquegarcia.github.io/christmas-login/" target="_blank" class="project-card">
-                <div class="relative">
-                    <div class="card-content">
-                        <h3>Tela de Login</h3>
-                    </div>
-                    <div class="project-media">
-                    
-                        <img src="./src/login.png" alt="Imagem animada de e-commerce">
-                        <p>
-                            Página de autenticação de usuário e senha, também com área própria para cadastro.
-                        </p>
-                    </div>
-                </div>
-            </a>
-              <!-- Card de Projeto 5 -->
-            <a href="https://enoquegarcia.github.io/Rex-Runner/" target="_blank" class="project-card">
-                <div class="relative">
-                    <div class="card-content">
-                        <h3>Rex Runner</h3>
-                    </div>
-                    <div class="project-media">
-                        
-                        <img src="./src/Capa.png" alt="capa do jogo Rex Runner">
-                        <p>
-                            Um jogo usando HTML + CSS + JavaScript, onde o dinossauro deve pular os obstáculos para passar de fase.
-                        </p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </section>
+    <div class="hero-actions">
+        <a href="#projects" class="cta-button">Ver projetos</a>
+        <a href="#contact-links" class="cta-button">Contato</a>
 
-    <section id="contact" class="contact-section container">
-        <h2>Entre em Contato</h2>
-        <p>
-            Gostaria de falar sobre um projeto ou oportunidade? Ficarei feliz em ouvir você!
-        </p>
-        <div class="contact-links">
-            <a href="mailto:seu.email@exemplo.com" class="contact-link">
-               enoquesantos13@hotmail.com
-            </a>
-            <a href="https://github.com/EnoqueGarcia" class="contact-link" target="_blank">
-                GitHub
-                
-            </a>
-        </div>
-    </section>
+    </div>
+</header>
+
+<main>
+
+<section class="about container">
+    <h2>Sobre mim</h2>
+    <p>
+       Sou desenvolvedor Full-stack Júnior, com foco em Front-end, criando interfaces modernas, responsivas e funcionais.
+Trabalho com HTML, CSS e JavaScript no front-end, além de integrações com banco de dados, APIs e sistemas de autenticação utilizando Node.js e PHP.
 
 
+    </p>
+</section>
+
+<section id="projects" class="projects-section container">
+    <h2>Meus Projetos</h2>
+
+    <div class="projects-grid">
+
+        <!-- Projeto 1 -->
+        <a href="https://enoquegarcia.github.io/pizzaria-forno-do-sul/" target="_blank" class="project-card">
+            <div class="card-content">
+                <h3>Projeto Pizzaria</h3>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                      <span>JS</span>
+                </div>
+
+                <img src="./src/pizza.png" alt="Site de pizzaria" class="pizza-img">
+
+                <p>Site moderno e responsivo para uma pizzaria fictícia.</p>
+            </div>
+        </a>
+
+        <!-- Projeto 2 -->
+        <a href="https://enoquegarcia.github.io/streaming-project/" target="_blank" class="project-card">
+            <div class="card-content">
+                <h3>Catálogo de Filmes</h3>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                </div>
+
+                <img src="./src/movie.png" alt="Catálogo de filmes">
+
+                <p>Catálogo onde é possível adicionar e remover filmes.</p>
+            </div>
+        </a>
+
+        <!-- Projeto 3 -->
+        <a href="https://enoquegarcia.github.io/E-commerce/" target="_blank" class="project-card">
+            <div class="card-content">
+                <h3>Landing Page E-commerce</h3>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                </div>
+
+                <img src="./src/compras2.png" alt="Landing page e-commerce">
+
+                <p>Página com carrinho de compras e adição de produtos.</p>
+            </div>
+        </a>
+
+        <!-- Projeto 4 -->
+        <a href="https://enoquegarcia.github.io/christmas-login/" target="_blank" class="project-card">
+            <div class="card-content">
+                <h3>Tela de Login</h3>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+
+                <img src="./src/login.png" alt="Tela de login">
+
+                <p>Autenticação de usuário com área de cadastro.</p>
+            </div>
+        </a>
+
+        <!-- Projeto 5 -->
+        <a href="https://enoquegarcia.github.io/Rex-Runner/" target="_blank" class="project-card">
+            <div class="card-content">
+                <h3>Rex Runner</h3>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                </div>
+
+                <img src="./src/Capa.png" alt="Jogo Rex Runner">
+
+                <p>Jogo onde o dinossauro deve pular obstáculos.</p>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+<section id="contact" class="contact-section container">
+    <h2>Contato</h2>
+    <p>Vamos conversar sobre oportunidades ou projetos?</p>
+
+    <div class="contact-links" id="contact-links">
+        <a href="https://wa.me/5541996208541" class="contact-link" target="_blank">WhatsApp</a>
+        <a href="https://github.com/EnoqueGarcia" class="contact-link" target="_blank">GitHub</a>
+        <a href="mailto:enoquesantos13@hotmail.com" class="contact-link">E-mail</a>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    © 2025 • Desenvolvido por Enoque
+</footer>
 
 </body>
+<div class="background">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
 </html>
