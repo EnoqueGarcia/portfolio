@@ -34,8 +34,22 @@
         /* Seção Principal (Header) */
         .header {
             text-align: center;
-            padding: 1rem 0;
-  
+            padding: 2rem 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        /* Estilo da Imagem de Perfil */
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #a855f7;
+            box-shadow: 0 0 20px rgba(168, 85, 247, 0.3);
+            animation: profileFloat 3s ease-in-out infinite;
         }
 
         .header-title {
@@ -237,6 +251,17 @@
                 transform: rotate(360deg);
             }
         }
+
+        /* Animação flutuante para o perfil 
+        @keyframes profileFloat {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        */
 
         .test{}
 
